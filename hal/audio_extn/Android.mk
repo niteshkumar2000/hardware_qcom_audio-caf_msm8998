@@ -152,8 +152,8 @@ LOCAL_SHARED_LIBRARIES := \
     libprocessgroup
 
 LOCAL_C_INCLUDES := \
-    $(PRIMARY_HAL_PATH) \
-    $(PRIMARY_HAL_PATH)/$(AUDIO_PLATFORM) \
+    hardware/qcom/audio-caf/msm8998 \
+    hardware/qcom/audio-caf/msm8998/$(AUDIO_PLATFORM) \
     external/tinyalsa/include \
     external/tinycompress/include \
     external/expat/lib \
@@ -277,9 +277,9 @@ LOCAL_C_INCLUDES := \
     system/media/audio_utils/include \
     external/expat/lib \
     $(call include-path-for, audio-route) \
-    $(PRIMARY_HAL_PATH) \
-    $(PRIMARY_HAL_PATH)/audio_extn \
-    $(PRIMARY_HAL_PATH)/$(AUDIO_PLATFORM) \
+    hardware/qcom/audio-caf/msm8998 \
+    hardware/qcom/audio-caf/msm8998/audio_extn \
+    hardware/qcom/audio-caf/msm8998/$(AUDIO_PLATFORM) \
     vendor/qcom/opensource/audio-kernel/include/uapi/ \
     $(call include-path-for, audio-effects)
 
@@ -333,9 +333,9 @@ LOCAL_C_INCLUDES := \
     system/media/audio_utils/include \
     external/expat/lib \
     $(call include-path-for, audio-route) \
-    $(PRIMARY_HAL_PATH) \
-    $(PRIMARY_HAL_PATH)/audio_extn \
-    $(PRIMARY_HAL_PATH)/$(AUDIO_PLATFORM) \
+    hardware/qcom/audio-caf/msm8998 \
+    hardware/qcom/audio-caf/msm8998/audio_extn \
+    hardware/qcom/audio-caf/msm8998/$(AUDIO_PLATFORM) \
     vendor/qcom/opensource/audio-kernel/include/uapi/ \
     $(call include-path-for, audio-effects)
 
